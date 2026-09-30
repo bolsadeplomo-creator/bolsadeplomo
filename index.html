@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bolsa de Plomo & Minga | Web Oficial</title>
+  
+  <meta name="description" content="Sitio web oficial de Bolsa de Plomo y Minga. Humor irreverente, comedia de marionetas, transmisiones en vivo, tienda oficial y videosaludos personalizados.">
+  <meta name="keywords" content="Bolsa de Plomo, Minga, comedia, titeres, marioneta, TikTok en vivo, Cumaná, La Boutique de Minga">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="assets/favicons/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+  <link rel="manifest" href="assets/favicons/site.webmanifest">
+
+  <!-- Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <!-- Iconos Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Animaciones al Scroll (AOS) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="top">
+
+  <!-- Navegación Optimizada y Despejada -->
+  <header>
+    <nav>
+      <a href="#top" class="logo-link">
+        <img src="assets/branding/logo-horizontal.png" alt="Logo Bolsa de Plomo" class="nav-logo">
+      </a>
+      
+      <!-- Botón Hamburguesa (Móvil) -->
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir Menú">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <!-- Lista de Enlaces Limpia -->
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#envivo" class="nav-link">En Vivo</a></li>
+        <li><a href="#bolsa" class="nav-link">Bolsa</a></li>
+        <li><a href="#minga" class="nav-link">Minga</a></li>
+        <li><a href="#saludos" class="nav-link">Videosaludos</a></li>
+        <li><a href="#apoyo" class="nav-link">Apoyar</a></li>
+        <li><a href="#hall-of-fame" class="nav-link nav-vip"><i class="fa-solid fa-crown"></i> Lv. 50</a></li>
+        <li><a href="#alianzas" class="nav-link">Alianzas</a></li>
+        <li><a href="https://boutiquedeminga.myshopify.com/" target="_blank" rel="noopener noreferrer" class="btn-nav-boutique nav-link">La Boutique de Minga</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Bloque 1: Portada con Redes -->
+    <section id="inicio">
+      <div class="hero-wrapper">
+        <img src="assets/branding/hero-banner.jpg" alt="Bolsa de Plomo en vivo" class="hero-img">
+        <div class="hero-overlay">
+          <h1>Bienvenidos a este universo bizarro</h1>
+          <div class="hero-panel-redes">
+            <div class="fila-redes">
+              <span class="tag-personaje bolsa">Bolsa</span>
+              <div class="redes-iconos">
+                <a href="https://www.tiktok.com/@elbolsadeplomo" target="_blank" rel="noopener noreferrer" class="red-icon tt" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://kick.com/bolsadeplomo" target="_blank" rel="noopener noreferrer" class="red-icon kc" title="Kick">
+                  <svg viewBox="0 0 24 24" class="svg-kick"><path d="M3 0h5.5v8.5L14.5 0H21l-8.5 11 9 13H15l-6.5-9.5V24H3V0z"/></svg>
+                </a>
+                <a href="https://twitch.tv/bolsadeplomo" target="_blank" rel="noopener noreferrer" class="red-icon tw" title="Twitch"><i class="fa-brands fa-twitch"></i></a>
+                <a href="https://www.youtube.com/@bolsadeplomo" target="_blank" rel="noopener noreferrer" class="red-icon yt" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/bolsadeplomo" target="_blank" rel="noopener noreferrer" class="red-icon ig" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="http://www.facebook.com/share/1FRhduxkvz" target="_blank" rel="noopener noreferrer" class="red-icon fb" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              </div>
+            </div>
+            <div class="fila-redes">
+              <span class="tag-personaje minga">Minga</span>
+              <div class="redes-iconos">
+                <a href="https://www.tiktok.com/@esminga" target="_blank" rel="noopener noreferrer" class="red-icon tt" title="TikTok de Minga"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/mingadeplomo" target="_blank" rel="noopener noreferrer" class="red-icon ig" title="Instagram de Minga"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@esminga" target="_blank" rel="noopener noreferrer" class="red-icon yt" title="YouTube de Minga"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 2: Transmisión en Vivo -->
+    <section id="envivo" class="seccion-envivo" data-aos="fade-up" data-aos-duration="800">
+      <div class="envivo-contenedor">
+        <div class="live-indicator">
+          <span class="pulse-dot"></span>
+          <span>ÚNETE A LA TRANSMISIÓN</span>
+        </div>
+        
+        <p class="texto-envivo">Un show nocturno de comedia ácida, humor pesado y siempre jugando al borde de la norma. Diseñado para jóvenes y adultos que buscan desconectar de la rutina. Si te sientes solo, aburrido o tuviste un día pesado, tu escape es aquí.</p>
+        
+        <a href="https://www.tiktok.com/@elbolsadeplomo/live" target="_blank" rel="noopener noreferrer" class="btn-live-grande">
+          👆 Entrar al Directo en TikTok
+        </a>
+
+        <div class="caja-horarios">
+          <h3>🕒 Horarios Oficiales (De Martes a Domingo)</h3>
+          <p class="nota-descanso">Los Lunes se descansa.</p>
+          <div class="grid-banderas">
+            <span><img src="https://flagcdn.com/w40/ve.png" alt="Bandera Venezuela" class="img-bandera"> Venezuela: 9:00 PM – 12:00 AM</span>
+            <span><img src="https://flagcdn.com/w40/us.png" alt="Bandera Estados Unidos" class="img-bandera"> EE.UU. (Miami/NY): 9:00 PM – 12:00 AM</span>
+            <span><img src="https://flagcdn.com/w40/ar.png" alt="Bandera Argentina" class="img-bandera"> Argentina: 10:00 PM – 1:00 AM</span>
+            <span><img src="https://flagcdn.com/w40/cl.png" alt="Bandera Chile" class="img-bandera"> Chile: 10:00 PM – 1:00 AM</span>
+            <span><img src="https://flagcdn.com/w40/mx.png" alt="Bandera México" class="img-bandera"> México (CDMX): 7:00 PM – 10:00 PM</span>
+            <span><img src="https://flagcdn.com/w40/pe.png" alt="Bandera Perú" class="img-bandera"> Perú: 8:00 PM – 11:00 PM</span>
+            <span><img src="https://flagcdn.com/w40/co.png" alt="Bandera Colombia" class="img-bandera"> Colombia: 8:00 PM – 11:00 PM</span>
+            <span><img src="https://flagcdn.com/w40/ec.png" alt="Bandera Ecuador" class="img-bandera"> Ecuador: 8:00 PM – 11:00 PM</span>
+            <span><img src="https://flagcdn.com/w40/es.png" alt="Bandera España" class="img-bandera"> España: 3:00 AM – 6:00 AM</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 3: Bolsa de Plomo (Con botón para historia completa) -->
+    <section id="bolsa" class="seccion-personaje">
+      <div class="contenedor-grid">
+        <div class="columna-img" data-aos="fade-right" data-aos-duration="900">
+          <img src="assets/personajes/sobre-mi.webp" 
+               alt="Marioneta Bolsa de Plomo" 
+               class="img-personaje" 
+               data-personaje="bolsa" 
+               onclick="reaccionarPersonaje(this)"
+               title="¿Qué tanto miras?">
+        </div>
+        <div class="columna-texto" data-aos="fade-left" data-aos-duration="900">
+          <h2>Bolsa de Plomo</h2>
+          
+          <h3 class="h3-personaje">¿Quién carrizo es Bolsa de Plomo?</h3>
+          <p>Bolsa de Plomo es un personaje de comedia nacido en septiembre de 2022 en Cumaná, estado Sucre, Venezuela, que comenzó a realizar transmisiones en vivo en TikTok en 2023. Con una personalidad irreverente, humor callejero, improvisación y una forma directa de interactuar con el público, se convirtió en el centro de un show nocturno donde la audiencia participa, conversa, debate locuras, se ríe y termina formando parte del espectáculo.</p>
+          <p>Su contenido combina comedia en vivo, humor ácido, piropos, frases de doble sentido, personajes y conversaciones espontáneas con la audiencia. Bolsa también ha ganado popularidad por sus videos cortos: piropos inesperados, ocurrencias para conquistar, frases con doble sentido y mensajes hechos para sacar una sonrisa, sorprender a alguien o simplemente alegrarle el día.</p>
+          
+          <div class="caja-btn-historia">
+            <button class="btn-historia-origen" id="btn-abrir-historia">
+              <i class="fa-solid fa-book-open"></i> ¿Y por qué nació Bolsa? Conoce la historia
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 4: Minga -->
+    <section id="minga" class="seccion-personaje seccion-inversa">
+      <div class="contenedor-grid">
+        <div class="columna-img" data-aos="fade-left" data-aos-duration="900">
+          <img src="assets/personajes/sobre-minga.webp" 
+               alt="Minga personaje oficial" 
+               class="img-personaje" 
+               data-personaje="minga" 
+               onclick="reaccionarPersonaje(this)"
+               title="No me toques">
+        </div>
+        <div class="columna-texto" data-aos="fade-right" data-aos-duration="900">
+          <h2>Minga</h2>
+          
+          <h3 class="h3-personaje minga-sub">¿Quién es Minga?</h3>
+          <p>Minga nació entre junio y agosto de 2024 dentro del universo de Bolsa de Plomo. Su origen estuvo marcado por una etapa profundamente personal: fue creada como una forma de sanar, acompañar y devolver la alegría tras una pérdida familiar muy importante para quien le da vida al personaje. Lo que comenzó como un refugio emocional pronto cobró vida propia hasta desarrollar su voz, personalidad y una comunidad independiente.</p>
+          <p>En el show, Minga es la legítima esposa de Bolsa de Plomo y el contrapeso exacto a su locura. Tiene carácter firme, no le tiembla el pulso para poner límites al desastre y suele ser quien aterriza las transmisiones con una sola mirada o un comentario fulminante. Frente al caos irreverente de Bolsa, ella es la administradora indiscutible del espectáculo.</p>
+          <p>Pero su papel va más allá de la comedia: Minga representa la cercanía y la honestidad con la audiencia. Puede pasar de una discusión de pareja a escuchar, reflexionar y dar consejos sinceros sobre la vida, el trabajo y las relaciones a quienes llegan cada noche al directo. Con redes sociales propias y una audiencia leal, se ha convertido en el verdadero corazón de este universo.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 5: La Boutique de Minga -->
+    <section id="boutique" class="seccion-boutique" data-aos="zoom-in" data-aos-duration="800">
+      <div class="contenedor-grid">
+        <div class="columna-texto">
+          <h2>La Boutique de Minga</h2>
+          <p class="eslogan-tienda">"En La Boutique de Minga, siempre te vestirás de pinga."</p>
+          <p>El rincón oficial de la mercancía. Diseños exclusivos, ropa urbana y accesorios aprobados directamente por la patrona del canal. Visita nuestra tienda oficial en Shopify y viste con el estilo auténtico de este universo.</p>
+        </div>
+        <div class="columna-img columna-boutique-cta">
+          <a href="https://boutiquedeminga.myshopify.com/" target="_blank" rel="noopener noreferrer" class="boton-enlace-boutique">
+            <img src="assets/personajes/boton-tienda.webp" alt="Entrar a La Boutique de Minga">
+          </a>
+          <span class="subtexto-accion">👆 Toca aquí para entrar a la tienda oficial en Shopify</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 6: Videosaludos Personalizados -->
+    <section id="saludos" class="seccion-saludos">
+      <div class="contenedor-grid">
+        <div class="columna-texto" data-aos="fade-right" data-aos-duration="900">
+          <span class="badge-precio">$15 USD</span>
+          <h2>Pide tu Videosaludo Personalizado</h2>
+          <p>¿Quieres que Bolsa de Plomo te mande un saludo sin filtros, felicite a un compadre, le tire veneno a un pana por su cumpleaños o te ayude a conquistar a quien desees? Pide tu video exclusivo listo para reírte y compartir.</p>
+          
+          <div class="caja-btn-saludo">
+            <a href="https://t.me/sombradb" target="_blank" rel="noopener noreferrer" class="btn-saludo-aqui">Aquí</a>
+            <span class="subtexto-saludo">👆 Toca aquí para coordinar los detalles y el pago de tu saludo directamente por Telegram</span>
+          </div>
+        </div>
+        <div class="columna-img" data-aos="fade-left" data-aos-duration="900">
+          <img src="assets/personajes/bolsa-pose-cintura.webp" 
+               alt="Bolsa de Plomo Videosaludos" 
+               class="img-personaje" 
+               data-personaje="bolsa" 
+               onclick="reaccionarPersonaje(this)"
+               title="Pide tu saludo o no me puyes">
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 7: Donaciones / Ko-fi -->
+    <section id="apoyo" class="seccion-apoyo" data-aos="fade-up" data-aos-duration="800">
+      <div class="caja-apoyo">
+        <h2><i class="fa-solid fa-mug-hot"></i> ¡Bríndale un café a Bolsa!</h2>
+        <p>Mantener este show nocturno vivo, debatir locuras hasta la medianoche y aguantar los regaños diarios de Minga requiere bastante cafeína. Si disfrutas de las transmisiones, te ríes con las ocurrencias o este universo te ayuda a desconectar después de un día pesado, puedes apoyar la producción con un aporte directo. Aquí Minga no puede meterle mano a la quincena... o al menos eso intentamos.</p>
+        <div class="caja-btn-kofi-wrap">
+          <a href="https://ko-fi.com/bolsadeplomo" target="_blank" rel="noopener noreferrer" class="btn-kofi">
+            <i class="fa-solid fa-heart"></i> Invítame un café en Ko-fi
+          </a>
+          <span class="subtexto-accion">👆 Toca aquí para hacer tu aporte directo en la plataforma segura de Ko-fi (o vía Binance Pay)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque: Salón de la Fama • Lv. 50 -->
+    <section id="hall-of-fame" class="seccion-vip" data-aos="fade-up" data-aos-duration="800">
+      <div class="vip-header">
+        <span class="corona-vip"><i class="fa-solid fa-crown"></i></span>
+        <h2 class="subtitulo-seccion titulo-dorado">Salón de la Fama • Lv. 50</h2>
+        <p class="subtitulo-vip">Los verdaderos Big Boss del show. Apoyo legendario que marca la historia de este canal.</p>
+      </div>
+
+      <div class="grid-vip">
+        <!-- 1. LaGatica -->
+        <div class="card-vip" onclick="abrirModalVip('gatica')">
+          <div class="avatar-vip-wrapper">
+            <img src="assets/niveles50/gatica.webp" alt="LaGatica Lv. 50" class="avatar-vip">
+          </div>
+          <h3 class="nombre-vip">LaGatica</h3>
+          <div class="badge-gamer-wrap">
+            <div class="badge-gamer">
+              <span class="gamer-prefix">LV.</span>
+              <span class="gamer-val">50</span>
+            </div>
+          </div>
+          <span class="link-dedicatoria">Ver dedicatoria <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+
+        <!-- 2. D@NGEROUS -->
+        <div class="card-vip" onclick="abrirModalVip('danger')">
+          <div class="avatar-vip-wrapper">
+            <img src="assets/niveles50/danger.webp" alt="D@NGEROUS Lv. 50" class="avatar-vip">
+          </div>
+          <h3 class="nombre-vip">D@NGEROUS</h3>
+          <div class="badge-gamer-wrap">
+            <div class="badge-gamer">
+              <span class="gamer-prefix">LV.</span>
+              <span class="gamer-val">50</span>
+            </div>
+          </div>
+          <span class="link-dedicatoria">Ver dedicatoria <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+
+        <!-- 3. Beto Osorio -->
+        <div class="card-vip" onclick="abrirModalVip('beto')">
+          <div class="avatar-vip-wrapper">
+            <img src="assets/niveles50/beto.webp" alt="Beto Osorio Lv. 50" class="avatar-vip">
+          </div>
+          <h3 class="nombre-vip">Beto Osorio</h3>
+          <div class="badge-gamer-wrap">
+            <div class="badge-gamer">
+              <span class="gamer-prefix">LV.</span>
+              <span class="gamer-val">50</span>
+            </div>
+          </div>
+          <span class="link-dedicatoria">Ver dedicatoria <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+
+        <!-- 4. Ronin -->
+        <div class="card-vip" onclick="abrirModalVip('ronin')">
+          <div class="avatar-vip-wrapper">
+            <img src="assets/niveles50/ronin.webp" alt="Ronin Lv. 50" class="avatar-vip">
+          </div>
+          <h3 class="nombre-vip">Ronin</h3>
+          <div class="badge-gamer-wrap">
+            <div class="badge-gamer">
+              <span class="gamer-prefix">LV.</span>
+              <span class="gamer-val">50</span>
+            </div>
+          </div>
+          <span class="link-dedicatoria">Ver dedicatoria <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 8: Pauta en Vivo y Patrocinios Oficiales -->
+    <section id="alianzas" class="seccion-sponsors" data-aos="fade-up" data-aos-duration="800">
+      <h2 class="subtitulo-seccion">Pauta en Vivo y Patrocinios</h2>
+      <p class="subtitulo-comercial">Llega a miles de personas cada noche sin rodeos ni publicidad aburrida.</p>
+      
+      <div class="caja-comercial-pitch">
+        <p class="texto-comercial">Si tienes un negocio, marca o proyecto y quieres exposición real frente a una audiencia despierta y activa de martes a domingo, métele publicidad donde la gente sí presta atención. Hacemos menciones orgánicas en las transmisiones nocturnas, integración de producto en el set de Bolsa y dinámicas que no se sienten como un comercial tradicional.</p>
+        
+        <div class="grid-beneficios-comerciales">
+          <div class="item-beneficio">
+            <span class="icono-beneficio"><i class="fa-solid fa-bullhorn"></i></span>
+            <h4>Menciones en vivo</h4>
+            <p>En los momentos de mayor audiencia y concurrencia del show.</p>
+          </div>
+          <div class="item-beneficio">
+            <span class="icono-beneficio"><i class="fa-solid fa-box-open"></i></span>
+            <h4>Colocación de producto</h4>
+            <p>Tu marca física o visual presente en el set durante la transmisión.</p>
+          </div>
+          <div class="item-beneficio">
+            <span class="icono-beneficio"><i class="fa-solid fa-globe"></i></span>
+            <h4>Presencia digital</h4>
+            <p>Difusión y mención directa en nuestras redes y comunidad.</p>
+          </div>
+        </div>
+
+        <div class="cta-comercial-wrapper">
+          <a href="https://t.me/sombradb" target="_blank" rel="noopener noreferrer" class="btn-contacto-comercial">
+            <i class="fa-brands fa-telegram"></i> Hablar de Negocios por Telegram
+          </a>
+          <span class="subtexto-accion">👆 Toca aquí para coordinar tu pauta publicitaria directamente por Telegram</span>
+          
+          <div class="correo-comercial-box">
+            <span>O escríbenos directamente a:</span>
+            <a href="mailto:bolsadeplomo@gmail.com" class="enlace-correo-comercial">
+              <i class="fa-solid fa-envelope"></i> bolsadeplomo@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 9: FAQ -->
+    <section id="faq" class="seccion-faq" data-aos="fade-up" data-aos-duration="800">
+      <h2 class="subtitulo-seccion">Preguntas Frecuentes</h2>
+      <div class="contenedor-faq">
+        
+        <details class="faq-item">
+          <summary>¿A qué hora y qué días son las transmisiones en vivo?</summary>
+          <div class="faq-contenido">
+            <p>Transmitimos en vivo por TikTok de <strong>martes a domingo</strong>, desde las <strong>9:00 PM hasta las 12:00 AM (Hora de Venezuela).</strong> Los días lunes descansamos.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>¿Cómo pido mi videosaludo personalizado?</summary>
+          <div class="faq-contenido">
+            <p>Es fácil. Haces clic en el botón <strong>"Aquí"</strong> de la sección de Videosaludos para abrir el chat de Telegram, nos mandas los detalles de lo que quieres que diga Bolsa por $15 y te pasamos los datos para el pago. Te enviamos el video listo para que te mueras de risa, jodas un rato o conquistes a quien desees.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>¿Qué métodos de pago aceptan?</summary>
+          <div class="faq-contenido">
+            <p>Depende de lo que vayas a pedir o apoyar. Aquí lo tienes claro:</p>
+            <ul class="faq-lista">
+              <li><strong>Videosaludos:</strong> Aceptamos Binance, Wally y UglyCash.</li>
+              <li><strong>Donaciones:</strong> Puedes apoyar directamente por Binance o invitarnos un café a través de Ko-fi.</li>
+              <li><strong>La Boutique de Minga:</strong> Para la ropa y envíos internacionales desde la web oficial, el pago es a través de PayPal.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>¿Hacen envíos de La Boutique de Minga a toda Venezuela?</summary>
+          <div class="faq-contenido">
+            <p>¡Hacemos envíos a todo el mundo! La tienda oficial en Shopify despacha a nivel internacional.</p>
+            <p>Ahora bien, <strong>si estás dentro de Venezuela</strong> y quieres comprar ropa, debes contactar directamente a la cuenta de <strong>@esminga</strong> en TikTok para coordinar tu pedido local.</p>
+          </div>
+        </details>
+
+      </div>
+    </section>
+
+    <!-- Bloque 10: Comunidad -->
+    <section id="contacto" class="seccion-comunidad" data-aos="fade-up" data-aos-duration="800">
+      <div class="contenedor-grid">
+        <div class="columna-texto">
+          <h2>Únete a la Comunidad</h2>
+          <p>Conéctate a través de cualquiera de nuestras plataformas oficiales para no perderte ningún show ni dinámica.</p>
+          <div class="grid-redes-comunidad">
+            <a href="https://www.tiktok.com/@elbolsadeplomo" target="_blank" rel="noopener noreferrer" class="card-red tt"><i class="fa-brands fa-tiktok"></i> <span>TikTok</span></a>
+            <a href="https://kick.com/bolsadeplomo" target="_blank" rel="noopener noreferrer" class="card-red kc">
+              <svg viewBox="0 0 24 24" class="svg-kick-comunidad"><path d="M3 0h5.5v8.5L14.5 0H21l-8.5 11 9 13H15l-6.5-9.5V24H3V0z"/></svg> 
+              <span>Kick</span>
+            </a>
+            <a href="https://twitch.tv/bolsadeplomo" target="_blank" rel="noopener noreferrer" class="card-red tw"><i class="fa-brands fa-twitch"></i> <span>Twitch</span></a>
+            <a href="https://www.youtube.com/@bolsadeplomo" target="_blank" rel="noopener noreferrer" class="card-red yt"><i class="fa-brands fa-youtube"></i> <span>YouTube</span></a>
+            <a href="https://www.instagram.com/bolsadeplomo" target="_blank" rel="noopener noreferrer" class="card-red ig"><i class="fa-brands fa-instagram"></i> <span>Instagram</span></a>
+            <a href="http://www.facebook.com/share/1FRhduxkvz" target="_blank" rel="noopener noreferrer" class="card-red fb"><i class="fa-brands fa-facebook-f"></i> <span>Facebook</span></a>
+            <a href="https://t.me/bolsadeplomo" target="_blank" rel="noopener noreferrer" class="card-red tg"><i class="fa-brands fa-telegram"></i> <span>Telegram Canal</span></a>
+          </div>
+        </div>
+        <div class="columna-img">
+          <img src="assets/personajes/bolsa-y-minga.webp" 
+               alt="Bolsa y Minga juntos" 
+               class="img-personaje" 
+               data-personaje="duo" 
+               onclick="reaccionarPersonaje(this)"
+               title="La pareja del show">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Historia de Origen de Bolsa -->
+  <div id="modal-historia" class="modal-historia">
+    <div class="modal-historia-card">
+      <button class="cerrar-modal-historia" id="btn-cerrar-historia" aria-label="Cerrar">&times;</button>
+      <h2>¿Y por qué nació Bolsa?</h2>
+      <p>Bolsa de Plomo nació en una etapa marcada por la necesidad, la frustración y las ganas de salir adelante. Fue una manera de convertir momentos difíciles en humor y de encontrar, detrás de un personaje, la libertad para decir, improvisar y expresar cosas que quizás de otra forma nunca habrían salido igual.</p>
+      <p>Lo que comenzó como una forma de buscar nuevas oportunidades y ayudar a la familia terminó convirtiéndose en algo mucho más grande: un espacio para hacer reír a otras personas que también llegan cansadas, aburridas, preocupadas o simplemente buscando desconectarse un rato de sus propios problemas.</p>
+      <p>Detrás de Bolsa de Plomo y de los personajes que forman este universo hay personas reales, pero el proyecto nunca ha buscado que sus identidades sean las protagonistas. La intención es que Bolsa, Minga y el espectáculo hablen por sí mismos; que quien llegue se quede por los personajes, la comunidad y, sobre todo, por las ganas de pasarla bien.</p>
+      <p>Hoy, Bolsa de Plomo continúa creciendo como proyecto de entretenimiento venezolano a través de TikTok Live, YouTube, Instagram, Facebook, Kick y otras plataformas digitales, llevando desde Cumaná un estilo de comedia propio a una comunidad cada vez más amplia.</p>
+    </div>
+  </div>
+
+  <!-- Modal Salón de la Fama VIP -->
+  <div id="modal-vip" class="modal-vip">
+    <div class="modal-vip-card">
+      <button class="cerrar-modal-vip" id="btn-cerrar-vip" aria-label="Cerrar">&times;</button>
+      <div class="modal-vip-avatar-box">
+        <img id="vip-modal-img" src="" alt="Avatar VIP" class="modal-vip-avatar">
+      </div>
+      <h2 id="vip-modal-nombre" class="modal-vip-nombre">Nombre</h2>
+      
+      <div class="badge-gamer-wrap modal-badge-gamer">
+        <div class="badge-gamer">
+          <span class="gamer-prefix">LV.</span>
+          <span class="gamer-val">50</span>
+        </div>
+      </div>
+
+      <div class="modal-vip-separador"></div>
+      <p id="vip-modal-texto" class="modal-vip-texto">Dedicatoria...</p>
+    </div>
+  </div>
+
+  <!-- Footer y Modal Legal -->
+  <footer>
+    <div class="footer-contenido">
+      <p>&copy; 2026 Bolsa de Plomo & Minga. Todos los derechos reservados.</p>
+      <div class="footer-links">
+        <a href="#modal-terminos" id="enlace-terminos">Términos y Condiciones</a>
+        <span>•</span>
+        <a href="#faq">Preguntas Frecuentes</a>
+        <span>•</span>
+        <a href="mailto:bolsadeplomo@gmail.com">Contacto Comercial</a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="modal-terminos" class="modal-legal">
+    <div class="modal-contenido">
+      <button class="cerrar-modal" id="btn-cerrar-modal" aria-label="Cerrar">&times;</button>
+      <h2>Términos y Condiciones del Servicio</h2>
+      <div class="legal-texto">
+        <h3>1. Videosaludos Personalizados</h3>
+        <p>Los videosaludos ofrecidos por Bolsa de Plomo son piezas audiovisuales de entretenimiento y comedia producidas a solicitud del cliente. Al solicitar este servicio, el usuario acepta las siguientes condiciones:</p>
+        <ul>
+          <li><strong>Criterio Creativo e Improvisación:</strong> El cliente puede aportar nombres, detalles o sugerir frases en su solicitud; no obstante, el tono, las ocurrencias, el remate cómico y la interpretación final quedan estrictamente a juicio creativo del personaje. <strong>No existe derecho a reclamo, modificación, regrabación ni correcciones posteriores.</strong></li>
+          <li><strong>Política de No Reembolso:</strong> Dada la naturaleza personalizada de la pieza digital, una vez grabado y entregado el video a través del canal acordado, el servicio se considera finalizado y <strong>no admite devoluciones ni reembolsos de dinero bajo ningún concepto</strong>.</li>
+        </ul>
+
+        <h3>2. La Boutique de Minga (Tienda Shopify)</h3>
+        <p>La comercialización de prendas de vestir y mercancía oficial se rige por las políticas del comercio electrónico:</p>
+        <ul>
+          <li><strong>Automatización y Envíos Internacionales:</strong> Los pedidos realizados a través de la tienda web de Shopify se procesan de forma automatizada mediante plataformas de distribución global.</li>
+          <li><strong>Responsabilidad de Seguimiento:</strong> Es responsabilidad exclusiva del comprador dar seguimiento a su paquete utilizando el número de guía (tracking) proporcionado por correo electrónico al momento del despacho.</li>
+          <li><strong>Pedidos en Venezuela:</strong> Para compras dentro del territorio venezolano, las entregas no se procesan en la web automatizada, sino de forma directa y personalizada contactando a <strong>@esminga</strong> en TikTok.</li>
+        </ul>
+
+        <h3>3. Contenido y Humor para Adultos</h3>
+        <p>Las transmisiones en directo, audios y videos de este universo contienen lenguaje explícito, parodias, sátira callejera y humor negro dirigido a una audiencia con criterio formado. Al navegar en este sitio o interactuar con el contenido, el usuario asume y comprende la naturaleza humorística del espectáculo.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      offset: 100
+    });
+
+    // Control Menú Hamburguesa en Móvil
+    const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    if (menuToggle && navMenu) {
+      menuToggle.addEventListener('click', function() {
+        navMenu.classList.toggle('abierto');
+        const icon = menuToggle.querySelector('i');
+        if (navMenu.classList.contains('abierto')) {
+          icon.classList.remove('fa-bars');
+          icon.classList.add('fa-xmark');
+        } else {
+          icon.classList.remove('fa-xmark');
+          icon.classList.add('fa-bars');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+          navMenu.classList.remove('abierto');
+          const icon = menuToggle.querySelector('i');
+          icon.classList.remove('fa-xmark');
+          icon.classList.add('fa-bars');
+        });
+      });
+    }
+
+    // Modal Historia de Bolsa
+    const modalHistoria = document.getElementById('modal-historia');
+    const btnAbrirHistoria = document.getElementById('btn-abrir-historia');
+    const btnCerrarHistoria = document.getElementById('btn-cerrar-historia');
+
+    if (btnAbrirHistoria && modalHistoria && btnCerrarHistoria) {
+      btnAbrirHistoria.addEventListener('click', function() {
+        modalHistoria.classList.add('activo');
+      });
+      btnCerrarHistoria.addEventListener('click', function() {
+        modalHistoria.classList.remove('activo');
+      });
+      window.addEventListener('click', function(e) {
+        if (e.target === modalHistoria) {
+          modalHistoria.classList.remove('activo');
+        }
+      });
+    }
+
+    // Modal Legal
+    const modal = document.getElementById('modal-terminos');
+    const btnAbrir = document.getElementById('enlace-terminos');
+    const btnCerrar = document.getElementById('btn-cerrar-modal');
+
+    if (btnAbrir && modal && btnCerrar) {
+      btnAbrir.addEventListener('click', function(e) {
+        e.preventDefault();
+        modal.classList.add('activo');
+      });
+      btnCerrar.addEventListener('click', function() {
+        modal.classList.remove('activo');
+      });
+      window.addEventListener('click', function(e) {
+        if (e.target === modal) {
+          modal.classList.remove('activo');
+        }
+      });
+    }
+
+    // Base de Datos Oficial Nivel 50
+    const datosVip = {
+      gatica: {
+        nombre: "LaGatica",
+        img: "assets/niveles50/gatica.webp",
+        texto: "Gracias por tanto cariño, por tu dulzura y por estar siempre presente con esa forma tan bonita de acompañarnos. Tu apoyo se siente como un abrazo dentro de esta comunidad y es imposible no agradecerte con muchísimo cariño."
+      },
+      danger: {
+        nombre: "D@NGEROUS",
+        img: "assets/niveles50/danger.webp",
+        texto: "Gracias por confiar en este proyecto, por disfrutar cada locura y, sobre todo, por regalarnos una amistad sincera e incondicional, sin pedir nada a cambio. Tu apoyo vale mucho más que cualquier nivel."
+      },
+      beto: {
+        nombre: "Beto Osorio",
+        img: "assets/niveles50/beto.webp",
+        texto: "Gracias por estar desde el comienzo, por creer en Bolsa de Plomo cuando todo apenas empezaba y por seguir siendo parte de este camino. Personas como tú también forman parte de la historia de este proyecto."
+      },
+      ronin: {
+        nombre: "Ronin",
+        img: "assets/niveles50/ronin.webp",
+        texto: "No tengo suficientes palabras para agradecer todo lo que has dado y el cariño con el que has acompañado este proyecto. Para nosotros no eres nivel 50: eres nivel 100. Gracias, de corazón, por tanto."
+      }
+    };
+
+    const modalVip = document.getElementById('modal-vip');
+    const vipImg = document.getElementById('vip-modal-img');
+    const vipNombre = document.getElementById('vip-modal-nombre');
+    const vipTexto = document.getElementById('vip-modal-texto');
+    const btnCerrarVip = document.getElementById('btn-cerrar-vip');
+
+    function abrirModalVip(id) {
+      const usuario = datosVip[id];
+      if (!usuario) return;
+      vipImg.src = usuario.img;
+      vipNombre.textContent = usuario.nombre;
+      vipTexto.textContent = usuario.texto;
+      modalVip.classList.add('activo');
+    }
+
+    if (btnCerrarVip) {
+      btnCerrarVip.addEventListener('click', function() {
+        modalVip.classList.remove('activo');
+      });
+    }
+
+    window.addEventListener('click', function(e) {
+      if (e.target === modalVip) {
+        modalVip.classList.remove('activo');
+      }
+    });
+
+    // Easter Egg
+    function reaccionarPersonaje(elemento) {
+      let toques = parseInt(elemento.getAttribute('data-toques') || '0', 10);
+      toques++;
+      elemento.setAttribute('data-toques', toques);
+
+      const tipo = elemento.getAttribute('data-personaje');
+
+      if (toques === 1) {
+        if (tipo === 'bolsa') {
+          alert("¡Epa! ¿Qué tanto me puyas? Ve a dejar tus regalos en el live mejor.");
+        } else if (tipo === 'minga') {
+          alert("¡Ey! Le voy a decir a Bolsa que estás picando demasiado la pantalla...");
+        } else if (tipo === 'duo') {
+          alert("¡Epa! ¡Nos van a romper la pantalla a los dos!");
+        }
+      } else if (toques >= 3) {
+        if (tipo === 'bolsa') {
+          alert("¡Coño, ya! Me voy pa'l carajo.");
+        } else if (tipo === 'minga') {
+          alert("¡Coño ya! Si sigues así mejor me voy.");
+        } else if (tipo === 'duo') {
+          alert("¡Se acabó la jodedera, nos fuimos!");
+        }
+
+        elemento.style.transition = "transform 1s ease-in, opacity 1s ease-in";
+        elemento.style.transform = "rotate(180deg) translateY(-500px) scale(0.2)";
+        elemento.style.opacity = "0";
+
+        setTimeout(() => {
+          elemento.setAttribute('data-toques', '0');
+          elemento.style.transform = "none";
+          elemento.style.opacity = "1";
+        }, 3500);
+      }
+    }
+  </script>
+
+</body>
+</html>
